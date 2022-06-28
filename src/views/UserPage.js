@@ -1,7 +1,15 @@
-import {useParams} from 'react-router-dom'
+import {useParams, useNavigate} from 'react-router-dom'
+
 const UserPage = ()=>{
+  const navigate = useNavigate()
   const {userId} = useParams();
 
-  return (<> User: {userId} </>)}
+  // if (isNaN(parseInt(userId))) (navigate('/users'))
+  // else{
+  return (<> User: {userId} </>)
+  //}
+
+  }
+
 
 export default UserPage;

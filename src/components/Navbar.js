@@ -17,6 +17,7 @@ const pages = [
   { text: "Home", url: "/" },
   { text: "About", url: "/about" },
   { text: "Users", url: "/users" },
+  { text: "Dashboard", url: "/dashboard"}
 ];
 
 export default Navbar;
